@@ -6,7 +6,7 @@ $(document).ready(function () {
 
         let a = $.trim($('input').val());
         $('input').val('');
-        $('.miniboxes').html('');
+        // $('.miniboxes').html('');
         if (!isNaN(a)) {
             for (let i = 1; i <= a; i++) {
                 $('.miniboxes').append(`
